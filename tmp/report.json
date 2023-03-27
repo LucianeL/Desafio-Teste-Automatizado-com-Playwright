@@ -1,0 +1,118 @@
+[
+  {
+    "description": "    Eu, enquanto usuário, desejo gerenciar o carrinho e compras da Amazon",
+    "elements": [
+      {
+        "description": "",
+        "id": "gerenciar-carrinho-de-compras;adicionar-e-excluir-produto-do-carrinho",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Adicionar e excluir produto do carrinho",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 529325900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Que eu acesse a pagina da Amazon",
+            "match": {
+              "location": "features\\support\\ShoppingAmazonStep.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3941669999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Pesquiso pelo livro \"1984 - Edição de Luxo\"",
+            "match": {
+              "location": "features\\support\\ShoppingAmazonStep.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 729273400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "E adiciono \"1984 - Edição de Luxo\" ao carrinho de compras",
+            "match": {
+              "location": "features\\support\\ShoppingAmazonStep.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3688871999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Verifico se produto \"1984 - Edição de Luxo\" foi adicionado ao carrinho",
+            "match": {
+              "location": "features\\support\\ShoppingAmazonStep.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2171497199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Eu clico no botao de exclusao do item",
+            "match": {
+              "location": "features\\support\\ShoppingAmazonStep.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 248448599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "O item é removido do carrinho de compras",
+            "match": {
+              "location": "features\\support\\ShoppingAmazonStep.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 328351300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 67083000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "gerenciar-carrinho-de-compras",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Gerenciar carrinho de compras",
+    "tags": [],
+    "uri": "features\\GerenciarCarrinho.feature"
+  }
+]

@@ -1,0 +1,1 @@
+cucumber-js — parallel 1 -f json:tmp/report.json
