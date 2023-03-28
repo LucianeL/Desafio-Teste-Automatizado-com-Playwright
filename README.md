@@ -22,7 +22,7 @@ Escopo: Crie um script usando Playwright para realizar testes automatizados no s
  - Abrir a pasta do projeto no Visual Studio Code;
  - Abrir o Terminal (Ctrl + Shift + ' ou Menu: "Terminal>>New Terminal");
  - Rodar o comando "npm test".
- - Para rodar com o usuário autenticado, davor descomentar método "autenticar()", no Step "Given",  em: features/support/ShoppingAmazonStep.js.
+ - Para rodar com o usuário autenticado, descomentar método "autenticar()", no Step "Given",  em: features/support/ShoppingAmazonStep.js.
 
  ##### 🤖 Exemplo de execução com sucesso:
  ![Code_5u4OoOgeEt](https://user-images.githubusercontent.com/69044228/228319805-3f48367d-f85a-4be8-af3f-a3086cfc4a19.gif)
