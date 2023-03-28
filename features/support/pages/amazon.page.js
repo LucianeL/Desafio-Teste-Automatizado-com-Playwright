@@ -18,11 +18,11 @@ class AmazonPage {
         await page.goto('https://www.amazon.com.br/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2Fref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&', { timeout: 10000 });
             var insereLogin = await page.waitForSelector('[id="ap_email"]')
             await insereLogin.click()
-            await insereLogin.fill("21999339737")
+            await insereLogin.fill("xxxxxxxx")
             await page.click('[class="a-button-input"]', { timeout: 5000 });
             var insereSenha = await page.waitForSelector('[id="ap_password"]')
             await insereSenha.click()
-            await insereSenha.fill("98@(HEBisa1!#")
+            await insereSenha.fill("xxxxxxxx")
             await page.click('[id="signInSubmit"]');
         }catch (erro) {
             console.log('Erro ao preencher login: ', erro);
