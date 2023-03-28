@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 529325900
+              "duration": 844902900
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3941669999
+              "duration": 4792525099
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 7,
             "name": "Pesquiso pelo livro \"1984 - Edição de Luxo\"",
             "match": {
-              "location": "features\\support\\ShoppingAmazonStep.js:12"
+              "location": "features\\support\\ShoppingAmazonStep.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 729273400
+              "duration": 3658062000
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "E adiciono \"1984 - Edição de Luxo\" ao carrinho de compras",
             "match": {
-              "location": "features\\support\\ShoppingAmazonStep.js:16"
+              "location": "features\\support\\ShoppingAmazonStep.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 3688871999
+              "duration": 4139284700
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 9,
             "name": "Verifico se produto \"1984 - Edição de Luxo\" foi adicionado ao carrinho",
             "match": {
-              "location": "features\\support\\ShoppingAmazonStep.js:21"
+              "location": "features\\support\\ShoppingAmazonStep.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 2171497199
+              "duration": 2466857499
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 10,
             "name": "Eu clico no botao de exclusao do item",
             "match": {
-              "location": "features\\support\\ShoppingAmazonStep.js:27"
+              "location": "features\\support\\ShoppingAmazonStep.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 248448599
+              "duration": 194978500
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 11,
             "name": "O item é removido do carrinho de compras",
             "match": {
-              "location": "features\\support\\ShoppingAmazonStep.js:31"
+              "location": "features\\support\\ShoppingAmazonStep.js:32"
             },
             "result": {
               "status": "passed",
-              "duration": 328351300
+              "duration": 359543499
             }
           },
           {
@@ -100,7 +100,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 67083000
+              "duration": 108509200
             }
           }
         ],

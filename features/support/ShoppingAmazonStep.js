@@ -7,6 +7,7 @@ const amazonPage = new AmazonPage();
 
 Given('Que eu acesse a pagina da Amazon', async () => {
   await amazonPage.acessarPagAmazon();
+  //await amazonPage.autenticar();
 });
 
 When(/^Pesquiso pelo livro "([^"]*)"$/, async function (produtoString) {
